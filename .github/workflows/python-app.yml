@@ -28,4 +28,5 @@ jobs:
           # pip install -r requirements.txt
           
       - name: Execute DemoPython.py script
+        working-directory: ./AutoScript/Python/
         run: python DemoPython.py
